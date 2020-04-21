@@ -1,9 +1,7 @@
 // CppDSA.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <ostream>
 #include <iostream>
-#include <cassert>
 #include "Array.h"
 using std::cout;
 using std::cin;
