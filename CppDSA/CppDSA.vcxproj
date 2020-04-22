@@ -153,6 +153,7 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="LinearSearch.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

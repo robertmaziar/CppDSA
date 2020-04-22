@@ -5,6 +5,7 @@
 //#include "Array.h"
 //#include "LinearSearch.h"
 //#include "BinarySearch.h"
+//#include "Stack.h"
 using std::cout;
 using std::cin;
 using std::endl;
@@ -116,6 +117,46 @@ int main()
 	//else
 	//{
 	//	cout << "Element found at index " << position << "." << endl;
+	//}
+#pragma endregion
+
+#pragma region Stack
+	//cout << "-----------------------------------------\n";
+
+	//cout << "Basic Stack in action.\n";
+	//try
+	//{
+	//	Stack<int> stack{ 10 };
+	//	assert(stack.IsEmpty());
+	//	assert(stack.MaxSize() == 10);
+
+	//	cout << "Stack created:" << endl;
+	//	cout << stack;
+
+	//	cout << "Pushing some elements:" << endl;
+	//	cout << "stack.Push(10)" << endl;
+	//	cout << "stack.Push(20)" << endl;
+	//	cout << "stack.Push(64)" << endl;
+	//	stack.Push(10);
+	//	stack.Push(20);
+	//	stack.Push(64);
+	//	assert(stack.Size() == 3);
+	//	cout << stack;
+
+	//	cout << "stack.Pop(): " << stack.Pop() << endl;
+	//	cout << "stack.Pop(): " << stack.Pop() << endl;
+	//	assert(stack.Size() == 1);
+	//	assert(!stack.IsEmpty());
+
+	//	cout << "stack.Top(): " << stack.Top() << endl;
+	//	assert(stack.Size() == 1);
+
+	//	cout << "Current stack:" << endl;
+	//	cout << stack;
+	//}
+	//catch (const StackOverflowException& e)
+	//{
+	//	cout << "\n*** Stack Underflow Exception ***\n" << endl;
 	//}
 #pragma endregion
 }
