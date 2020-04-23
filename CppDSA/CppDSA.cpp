@@ -6,6 +6,7 @@
 //#include "LinearSearch.h"
 //#include "BinarySearch.h"
 //#include "Stack.h"
+#include "LinkedList.h"
 using std::cout;
 using std::cin;
 using std::endl;
@@ -158,5 +159,32 @@ int main()
 	//{
 	//	cout << "\n*** Stack Underflow Exception ***\n" << endl;
 	//}
+#pragma endregion
+
+#pragma region Linked List
+	cout << "-----------------------------------------\n";
+
+	LinkedList<int> l{};
+	cout << " Created an empty list: " << l << "\n\n";
+
+	cout << " Inserting some elements...\n";
+	l.InsertHead(10);
+	l.InsertHead(64);
+	l.InsertHead(80);
+	l.InsertHead(77);
+	cout << " Current list: " << l << "\n\n";
+
+	cout << " Inserting a new element (500) after node with value 64.\n";
+	auto position = l.Find(64);
+	l.InsertAfter(position, 500);
+	cout << " Current list: " << l << "\n\n";
+
+	cout << " Removing current head.\n";
+	l.RemoveHead();
+	cout << " Current list: " << l << "\n\n";
+
+	cout << " Clearing the whole list.\n";
+	l.Clear();
+	cout << " Current list: " << l << "\n\n";
 #pragma endregion
 }
