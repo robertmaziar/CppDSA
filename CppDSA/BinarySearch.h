@@ -4,7 +4,7 @@
 constexpr int kNotFound = -1;
 
 template <typename T>
-T BinarySearch(T element, const T* v, int size)
+int BinarySearch(T element, const T* v, int size)
 {
 	int left = 0;
 	int right = size - 1;

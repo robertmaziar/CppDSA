@@ -4,7 +4,7 @@
 constexpr int kNotFound = -1;
 
 template <typename T>
-T LinearSearch(T element, const T* v, int size)
+int LinearSearch(T element, const T* v, int size)
 {
 	for (int i = 0; i < size; i++)
 	{
